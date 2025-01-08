@@ -6,9 +6,10 @@ class PageMain(TemplateView):
     template_name = 'third_task/main.html'
 
 
-class Page1(TemplateView):
-    template_name = 'third_task/page1.html'
+class PageShop(TemplateView):
+
+    template_name = 'third_task/shop.html'
 
 
-class Page2(TemplateView):
-    template_name = 'third_task/page2.html'
+class PageBasket(TemplateView):
+    template_name = 'third_task/basket.html'
